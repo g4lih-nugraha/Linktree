@@ -49,6 +49,7 @@ body {
 }
 .link-container li {
   margin-bottom: 1em;
+  list-style: none;
 }
 .link-container a {
   display: flex;
