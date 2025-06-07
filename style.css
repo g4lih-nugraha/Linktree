@@ -7,7 +7,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-image: url(image/Background2.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('image/Background2.jpg'); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -37,9 +37,6 @@ body {
   border: aliceblue solid 4px;
 }
 .link-container {
-  background-color: rgba(0, 0, 0, 0.57);
-  padding: 2.5em;
-  border: aliceblue solid;
   border-radius: 50px;
   margin-top: 1.6em;
   width: 100%;
@@ -71,4 +68,10 @@ body {
 }
 .link-container span {
   flex: 1;
+}
+
+.link-container a:hover{
+  transition: ease-in;
+  background-color: rgba(240, 248, 255, 0.573);
+  color: black;
 }
